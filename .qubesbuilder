@@ -1,7 +1,0 @@
-vm:
-  rpm:
-    build:
-    - rpm_spec/thunderbird-qubes.spec
-  deb:
-    build:
-    - debian

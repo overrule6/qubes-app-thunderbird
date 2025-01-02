@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "QubesOS Attachment Opener",
+    "version": "1.0",
+    "description": "Opens Thunderbird attachments in QubesOS Disposable VMs.",
+    "permissions": ["messagesRead", "menus", "nativeMessaging", "downloads"],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "applications": {
+      "gecko": {
+        "id": "noemail@nodomain.com"
+      }
+    }
+  }
